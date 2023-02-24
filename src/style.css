@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    
+  }
+  
+  .Navbar {
+    display: flex;
+    color: black;
+    background-color: black;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+    font-size: 10pt;
+     
+   }
+  
+   form {
+    display:flex;
+    flex-direction: column;
+    margin: .25rem;
+    padding: .25rem;  
+    justify-content: center;
+    
+    
+  
+   }
+   
+
+
+
+  .myRoutinesDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width:100%;
+    
+  }
+  .createRoutineDiv {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: auto;
+  }
+  
+
+   
